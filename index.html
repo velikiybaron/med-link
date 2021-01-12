@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Главная страница</title>
+    <meta name="theme-color" content="#fff" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/favicons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/main.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_top">
+          <a class="logo" href="index.html"></a>
+          <div class="header_item first">
+            <div class="header_item-icon">
+              <span class="icon-box box-yellow icon-pin"></span>
+            </div>
+            <div class="header_item-right">
+              <b class="top">г. Красноярск</b
+              ><span class="subtop"
+                >ул. Ярыгинская набережная, д. 29<span class="arrow"></span
+              ></span>
+            </div>
+          </div>
+          <div class="header_item last">
+            <div class="header_item-icon">
+              <span class="icon-box box-orange icon-phone-call"></span>
+            </div>
+            <div class="header_item-right">
+              <b class="top">+7 (391) 280-33-03</b
+              ><span class="subtop"
+                >Режим работы<span class="arrow"></span
+              ></span>
+            </div>
+          </div>
+          <div class="header_btn-inner">
+            <div class="header_btn">
+              <a class="btn-icon btn-red" href="#"
+                ><span class="icon icon-user"></span
+                ><b class="btn-text">Личный кабинет</b></a
+              >
+            </div>
+            <div class="header_btn">
+              <a class="btn-icon btn-blue" href="#"
+                ><span class="icon icon-credit-card"></span
+                ><b class="btn-text">Онлайн оплата</b></a
+              >
+            </div>
+            <div class="header_btn" id="popup_insert-open">
+              <a class="btn btn-red" href="#">Записаться на прием</a>
+            </div>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <div class="nav_burger">
+            <span></span><b class="title">Навигация по сайту</b>
+          </div>
+          <nav class="header_bottom-nav">
+            <div class="mobile_header">
+              <span class="title">Навигация по сайту</span
+              ><span class="close"></span>
+            </div>
+            <ul>
+              <li>
+                <a href="reviews.html">О клинике<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="vrachi.html">Врачи<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="all_uslugi.html">Услуги<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="patientap.html">Анализы<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="text_action.html">Диагностика<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="oms.html">ОМС<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li><a href="page_actions.html">Акции</a></li>
+              <li>
+                <a href="price.html">Цены<span class="arrow m-h"></span></a>
+                <button
+                  class="navigation_active icon-baseline-add mobile"
+                ></button>
+                <ul class="parent_menu">
+                  <li><a href="#">Услуга первая Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                  <li><a href="#">Услуга первая</a></li>
+                </ul>
+              </li>
+              <li><a href="article.html">Статьи</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+            </ul>
+          </nav>
+          <button class="search-btn"><span class="icon-search"></span></button>
+        </div>
+        <form class="search-form" action="">
+          <div class="form_field">
+            <input class="field" type="text" placeholder="Поиск по сайту" />
+          </div>
+          <button class="search-btn-active" type="submit">
+            <span class="icon-search"></span>
+          </button>
+        </form>
+      </div>
+    </header>
+    <div class="slider">
+      <div class="container">
+        <div class="slider_wrap">
+          <div class="slider_item">
+            <div class="slider_wrap-left">
+              <b class="title">Лечение <br />ЛОР-заболеваний</b>
+              <div class="subtitle">
+                Первичный приём оториноларинголога с видеоэндоскопией
+              </div>
+              <div class="price">
+                <b>1000 рублей</b> <s>(1800 рублей)</s>до 31 мая 2020
+              </div>
+              <div class="btns">
+                <a class="btn btn-blue" href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="slider_wrap-right">
+              <img src="./img/slider1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="slider_item">
+            <div class="slider_wrap-left">
+              <b class="title">Лечение <br />ЛОР-заболеваний 2</b>
+              <div class="subtitle">
+                Первичный приём оториноларинголога с видеоэндоскопией
+              </div>
+              <div class="price">
+                <b>1000 рублей</b> <s>(1800 рублей)</s>до 31 мая 2020
+              </div>
+              <div class="btns">
+                <a class="btn btn-blue" href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="slider_wrap-right">
+              <img src="./img/slider1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="slider_item">
+            <div class="slider_wrap-left">
+              <b class="title">Лечение <br />ЛОР-заболеваний 3</b>
+              <div class="subtitle">
+                Первичный приём оториноларинголога с видеоэндоскопией
+              </div>
+              <div class="price">
+                <b>1000 рублей</b> <s>(1800 рублей)</s>до 31 мая 2020
+              </div>
+              <div class="btns">
+                <a class="btn btn-blue" href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="slider_wrap-right">
+              <img src="./img/slider1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="slider_item">
+            <div class="slider_wrap-left">
+              <b class="title">Лечение <br />ЛОР-заболеваний 4</b>
+              <div class="subtitle">
+                Первичный приём оториноларинголога с видеоэндоскопией
+              </div>
+              <div class="price">
+                <b>1000 рублей</b> <s>(1800 рублей)</s>до 31 мая 2020
+              </div>
+              <div class="btns">
+                <a class="btn btn-blue" href="#">Подробнее</a>
+              </div>
+            </div>
+            <div class="slider_wrap-right">
+              <img src="./img/slider1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="slider_widget"></div>
+        <div class="slider_nav">
+          <div class="slider_nav-prev">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+          </div>
+          <div class="slider_nav-next">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="block_title">
+        <span>01</span>
+        <div class="title">Наши врачи</div>
+      </div>
+      <div class="flex justify-between abs mrb-150">
+        <div class="wrap_cards" id="main_slider_people">
+          <div class="card">
+            <div class="card_top">
+              <div class="card_top-count">
+                <span class="icon-heart"></span>1265
+              </div>
+              <img src="./img/people.jpg" alt="" />
+            </div>
+            <div class="card_bottom">
+              <a class="title" href="">Ануфриев Андрей Ярославович</a>
+              <div class="subtitle">
+                Заведующий хирургическим отделением, врач-хирург
+              </div>
+            </div>
+            <div class="card_btns">
+              <a class="btn btn-red" href="#">Записаться на прием</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_top">
+              <div class="card_top-count">
+                <span class="icon-heart"></span>1265
+              </div>
+              <img src="./img/people2.jpg" alt="" />
+            </div>
+            <div class="card_bottom">
+              <a class="title" href="">Авксентиева Мария Станиславовна</a>
+              <div class="subtitle">Врач общей практики (семейный врач)</div>
+            </div>
+            <div class="card_btns">
+              <a class="btn btn-red" href="#">Записаться на прием</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_top">
+              <div class="card_top-count">
+                <span class="icon-heart"></span>1265
+              </div>
+              <img src="./img/doctor.png" alt="" />
+            </div>
+            <div class="card_bottom">
+              <a class="title" href="#">Авксентиева Мария Станиславовна</a>
+              <div class="subtitle">Врач общей практики (семейный врач)</div>
+            </div>
+            <div class="card_btns">
+              <a class="btn btn-red" href="#">Записаться на прием</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_top">
+              <div class="card_top-count">
+                <span class="icon-heart"></span>1265
+              </div>
+              <img src="./img/people3.jpg" alt="" />
+            </div>
+            <div class="card_bottom">
+              <a class="title" href="#">Авксентиева Мария Станиславовна</a>
+              <div class="subtitle">Семейный врач</div>
+            </div>
+            <div class="card_btns">
+              <a class="btn btn-red" href="#">Записаться на прием</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_top">
+              <div class="card_top-count">
+                <span class="icon-heart"></span>1265
+              </div>
+              <img src="./img/people.jpg" alt="" />
+            </div>
+            <div class="card_bottom">
+              <a class="title" href="#">Ануфриев Андрей Ярославович</a>
+              <div class="subtitle">
+                Заведующий хирургическим отделением, врач-хирург
+              </div>
+            </div>
+            <div class="card_btns">
+              <a class="btn btn-red" href="#">Записаться на прием</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrap_control" id="main_slider_people-nav">
+          <div class="flex">
+            <div class="slider_nav-prev">
+              <div class="btn-lite"><span class="icon-play-button"></span></div>
+            </div>
+            <div class="slider_nav-next">
+              <div class="btn-lite"><span class="icon-play-button"></span></div>
+            </div>
+          </div>
+          <div class="wrap_control-item first">
+            <span class="descr">Команда квалифицированных специалистов</span
+            ><b>43 эксперта</b>
+          </div>
+          <div class="wrap_control-item last">
+            <span class="descr mrb-0">средний опыт работы</span
+            ><b>более 15 лет</b>
+          </div>
+          <a class="wrap_control-btn" href="#"
+            ><span
+              >Все<br />
+              специалисты</span
+            ><span class="icon-box box-blue icon-play-button"></span
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="table mrb-150">
+        <div class="block_title block_top js-title">
+          <span>02</span>
+          <div class="title_list">
+            <div class="title active">Услуги</div>
+            <div class="title">Анализы</div>
+            <div class="title">Диагностика</div>
+          </div>
+        </div>
+        <div class="block_table active">
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Семейная медицина</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Хирургия</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Процедурный кабинет</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Гинекология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Оториноларингология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Выдача медицинской документации</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Офтальмология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Массаж</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Программы наблюдения</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Неврология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Вызов специалиста на дом</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Телемедицина</span>
+          </div>
+        </div>
+        <div class="block_table">
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Семейная медицина</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Хирургия</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Процедурный кабинет</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Гинекология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Оториноларингология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Выдача медицинской документации</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Офтальмология</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Массаж</span>
+          </div>
+        </div>
+        <div class="block_table">
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Семейная медицина</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-uterus"></span></div>
+            <span class="title">Хирургия</span>
+          </div>
+          <div class="block_table-item">
+            <div class="btn-lite"><span class="icon-play-button"></span></div>
+            <span class="title">Процедурный кабинет</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="network">
+      <div class="container">
+        <div class="network_top">
+          <div class="network_top-left">
+            <div class="block_title block_top">
+              <span>03</span>
+              <div class="title">
+                Сеть семейных поликлиник <strong>«Сантем»</strong> - комплексный
+                подход<br />к здоровью пациентов
+              </div>
+            </div>
+            <div class="left_item first">
+              <div class="left_item-btn">
+                <span class="icon-medical-certificate"></span>
+              </div>
+              <div class="left_item-title">Здоровье начинается здесь</div>
+              <div class="left_item-descr">
+                <p>
+                  При строительстве клиники использовались только современные
+                  технологии и материалы, чтобы соответствовать всем российским
+                  и европейским инженерным требованиям в области
+                  здравоохранения.
+                </p>
+              </div>
+            </div>
+            <div class="left_item">
+              <div class="left_item-btn">
+                <span class="icon-smart-home"></span>
+              </div>
+              <div class="left_item-title">«Умная больница»</div>
+              <div class="left_item-descr">
+                <p>
+                  Медицинский центр спроектирован по принципу «Умного дома»,
+                  посещать который безопасно и комфортно. Подрядчиком стала
+                  немецкая компания, которая построила ряд клиник в Германии,
+                  Израиле и Швейцарии.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="network_top-right">
+            <img src="./img/network.jpg" alt="" />
+            <div class="top_right-items">
+              <a class="item" href="#"
+                ><b>ОМС</b
+                ><span class="icon-box box-green icon-play-button"></span></a
+              ><a class="item" href="#"
+                ><b>Лицензии</b
+                ><span class="icon-box box-yellow icon-play-button"></span></a
+              ><a class="item" href="#"
+                ><b>Гарантии</b
+                ><span class="icon-box box-orange icon-play-button"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="network_bottom">
+          <div class="network_bottom-left">
+            <div class="box-image"><img src="./img/network2.png" alt="" /></div>
+          </div>
+          <div class="network_bottom-right">
+            <div class="title">Наша миссия</div>
+            <p class="descr">
+              Неуклонное повышение эффективности диагностики, лечения и
+              оздоровления пациентов, качества медицинского обслуживания за счет
+              формирования в коллективе высокой корпоративной культуры,
+              профессиональной чести и гордости, за счет мотивации каждого
+              сотрудника на большую отдачу в работе и постоянное
+              совершенствование своей квалификации.
+            </p>
+            <div class="info">
+              <div class="info_left">
+                <span class="name">Генеральный директор</span
+                ><b class="subname">Толстых Михаил Семенович</b>
+              </div>
+              <div class="info_right">
+                <div class="item">
+                  <div class="item_image">
+                    <span class="icon-caduceus"></span>
+                  </div>
+                  <div class="item_text">
+                    <b>120</b><span>Медицинских направлений</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="item_image">
+                    <span class="icon-talking"></span>
+                  </div>
+                  <div class="item_text">
+                    <b>60%</b><span>Обращаются по рекомендации</span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="item_image">
+                    <span class="icon-feedback"></span>
+                  </div>
+                  <div class="item_text">
+                    <b>95 000</b><span>Довольных пациентов</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mrb-120">
+      <div class="block_title">
+        <span>04</span>
+        <div class="title">Отзывы</div>
+      </div>
+      <div class="flex justify-between abs">
+        <div class="wrap_reviews" id="reviews_slider">
+          <div class="reviews rb">
+            <img class="reviews_image" src="./img/reviews.jpg" alt="" />
+          </div>
+          <div class="reviews">
+            <div class="reviews_top">
+              <div class="photo">
+                <img src="./img/reviews-photo.png" alt="" />
+              </div>
+              <span class="icon-quote"></span>
+            </div>
+            <div class="reviews_bottom">
+              <div class="name">Александр</div>
+              <div class="date">
+                <span class="icon-clock-outline"></span><span>12.03.2020</span>
+              </div>
+              <p class="descr">
+                Медицинский центр спроектирован по принципу «Умного дома»,
+                посещать который безопасно и комфортно. Подрядчиком стала
+                немецкая компания, которая построила ряд клиник в Германии,
+                Израиле и Швейцарии.
+              </p>
+            </div>
+          </div>
+          <div class="reviews">
+            <div class="reviews_top">
+              <div class="photo"><span class="icon-user-2"></span></div>
+              <span class="icon-quote"></span>
+            </div>
+            <div class="reviews_bottom">
+              <div class="name">Иванова К.</div>
+              <div class="date">
+                <span class="icon-clock-outline"></span><span>12.03.2020</span>
+              </div>
+              <p class="descr">
+                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                сгенерировать несколько абзацев более менее осмысленного текста
+                рыбы на русском языке, а начинающему оратору отточить навык
+                публичных выступлений в домашних условиях. При создании...
+              </p>
+              <a class="link_arrow" href="#"
+                >Читать весь<span class="arrow"></span
+              ></a>
+            </div>
+          </div>
+          <div class="reviews">
+            <div class="reviews_top">
+              <div class="photo"><span class="icon-user-2"></span></div>
+              <span class="icon-quote"></span>
+            </div>
+            <div class="reviews_bottom">
+              <div class="name">Иванова К.</div>
+              <div class="date">
+                <span class="icon-clock-outline"></span><span>12.03.2020</span>
+              </div>
+              <p class="descr">
+                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                сгенерировать несколько абзацев более менее осмысленного текста
+                рыбы на русском языке, а начинающему оратору отточить навык
+                публичных выступлений в домашних условиях. При создании...
+              </p>
+              <a class="link_arrow" href="#"
+                >Читать весь<span class="arrow"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="reviews_control">
+          <div class="flex">
+            <div class="slider_nav-prev">
+              <div class="btn-lite"><span class="icon-play-button"></span></div>
+            </div>
+            <div class="slider_nav-next">
+              <div class="btn-lite"><span class="icon-play-button"></span></div>
+            </div>
+          </div>
+          <div class="reviews_control-item">
+            <span class="descr"
+              >Отзывы пациентов и посетителей<br />клиники “Сантем”<br />в
+              социальных сетях и площадках:</span
+            >
+          </div>
+          <div class="reviews_links">
+            <a class="link" href="#"
+              ><b>Flamp</b
+              ><span class="icon-box box-green"
+                ><i class="icon-flamp"></i></span></a
+            ><a class="link" href="#"
+              ><b>ВКонтакте</b
+              ><span class="icon-box box-orange icon-vk"></span></a
+            ><a class="link" href="#"
+              ><b>Instagram</b
+              ><span class="icon-box box-yellow icon-instagram"></span
+            ></a>
+          </div>
+          <a class="reviews_control-btn btn btn-blue" href="#"
+            >Читать все отзывы</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A7242f60070d8483ada97e889b79ace6981e500b31dea32d7b487a4e1b985db0e&amp;amp;source=constructor"
+        width="100%"
+        height="400"
+        frameborder="0"
+      ></iframe>
+    </div>
+    <footer class="footer">
+      <div class="footer_center">
+        <div class="container">
+          <div class="footer_center-top">
+            <a class="logo" href="#"></a>
+            <div class="footer_center-item">
+              <div class="footer_item-icon">
+                <span class="btn-lite icon-pin"></span>
+              </div>
+              <div class="footer_item-right">
+                <b class="top">г. Красноярск</b
+                ><span class="subtop"
+                  >ул. Ярыгинская набережная, д. 29<br />ул. Чернышевского,
+                  120</span
+                >
+              </div>
+            </div>
+            <div class="footer_center-item">
+              <div class="footer_item-icon">
+                <span class="btn-lite icon-phone-call"></span>
+              </div>
+              <div class="footer_item-right">
+                <b class="top">+7 (391) 280-33-03</b
+                ><a class="subtop" href="#">Режим работы</a>
+              </div>
+            </div>
+            <div class="footer_center-btn_inner">
+              <div class="footer_center_btn">
+                <a class="btn btn-blue" href="#">Оставить отзыв</a>
+              </div>
+              <div class="footer_center_btn">
+                <a class="btn btn-red" href="#">Записаться на прием</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_center-bottom">
+            <div class="bottom_item">
+              <div class="icon-bk"></div>
+              <a class="blue" href="#">Медицинский маркетинг</a
+              ><span class="copy">&copy; 2020 Все права защищены.</span>
+            </div>
+            <div class="bottom_item">
+              <a class="gray" href="#">Лицензия №0000000</a
+              ><a class="gray" href="#">Соглашение о персональных данных</a>
+            </div>
+            <div class="bottom_item">
+              <span>Способы оплаты: - наличные</span>
+              <div class="bottom_item-btns">
+                <span class="icon-mastercard"></span
+                ><span class="icon-maestro"></span
+                ><span class="icon-visa"></span><span class="icon-mir"></span>
+              </div>
+            </div>
+            <div class="bottom_icons">
+              <span class="btn-lite icon-youtube"></span
+              ><span class="btn-lite icon-twitter"></span
+              ><span class="btn-lite icon-telegram"></span
+              ><span class="btn-lite icon-facebook"></span
+              ><span class="btn-lite icon-instagram"></span
+              ><span class="btn-lite icon-vk"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <p class="text">
+            ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА, 7+
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="wrap_popup" id="popup_insert_price">
+      <div class="wrap_popup-content">
+        <button class="icon-baseline-clear" id="close_popup"></button>
+        <div class="wrap-blue">
+          <div class="popup_price">
+            <span class="title"
+              >Прием (осмотр, консультация) врача невролога первичный</span
+            ><b class="price">2 145 ₽</b>
+            <button class="icon-baseline-clear"></button>
+          </div>
+          <div class="popup_price">
+            <span class="title"
+              >Прием (осмотр, консультация) врача невролога первичный</span
+            ><b class="price">1 500 ₽</b>
+            <button class="icon-baseline-clear"></button>
+          </div>
+          <div class="popup_price-result">
+            <span class="first">Итого</span><span class="last">3 645 ₽</span>
+          </div>
+        </div>
+        <div class="popup_header">
+          <span class="title">Записаться на прием</span
+          ><span class="subtitle"
+            >Оставьте заявку, и мы свяжемся с вами в ближайшее время</span
+          >
+        </div>
+        <form class="popup_form" action="">
+          <div class="form_field">
+            <label class="btn-lite icon-phone-call"></label>
+            <input class="phone" type="text" placeholder="Ваш телефон" />
+          </div>
+          <div class="form_btn">
+            <button class="btn btn-blue" type="submit" name="submit">
+              Отправить
+            </button>
+          </div>
+          <div class="form_info">
+            <span class="text"
+              >Нажимая на кнопку, вы даете согласие на обработку
+              <a href="#">перональных данных</a></span
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="wrap_popup" id="popup_insert">
+      <div class="wrap_popup-content">
+        <button class="icon-baseline-clear" id="close_popup"></button>
+        <div class="popup_header">
+          <span class="title">Записаться на прием</span
+          ><span class="subtitle"
+            >Оставьте заявку, и мы свяжемся с вами в ближайшее время</span
+          >
+        </div>
+        <form class="popup_form" action="">
+          <div class="form_field">
+            <label class="btn-lite icon-phone-call"></label>
+            <input class="phone" type="text" placeholder="Ваш телефон" />
+          </div>
+          <div class="form_btn">
+            <button class="btn btn-blue" type="submit" name="submit">
+              Отправить
+            </button>
+          </div>
+          <div class="form_info">
+            <span class="text"
+              >Нажимая на кнопку, вы даете согласие на обработку
+              <a href="#">перональных данных</a></span
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/main.min.js"></script>
+    <script src="js/vendor.min.js"></script>
+  </body>
+</html>
